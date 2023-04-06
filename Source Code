@@ -1,0 +1,22 @@
+#Importing modules
+import numpy as np
+import networkx as nx
+import pandas as pd
+import requests
+import io
+import matplotlib.pyplot as plt 
+from matplotlib import cm
+import matplotlib.animation as animation
+import time
+
+
+#To display the animation
+plt.show()
+for edge in G.edges:
+    plt.clf() 
+    nx.draw_networkx_nodes(G, pos)
+    nx.draw_networkx_edges(G, pos, edgelist=[edge], edge_color='r')
+    plt.show()
+    time.sleep(0.5)
+
+#whole code is not provided as it is under publication process
